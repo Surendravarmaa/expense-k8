@@ -45,7 +45,7 @@ metadata:
   name: frontend
   namespace: expense
 spec:
-  type: Load
+  type: LoadBalancer
   selector:
     component: frontend
     project: expense
