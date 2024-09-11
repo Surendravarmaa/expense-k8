@@ -128,9 +128,9 @@ spec:
             cpu: "150m"
             memory: "256Mi"
         volumeMounts:
-        - name: nginx-conf
-          mountPath: /etc/nginx/nginx.conf
-          readOnly: true
+         - name: nginx-conf
+            mountPath: /etc/nginx/nginx.conf
+            readOnly: true
         # envFrom:
         # - configMapRef:
         #     name: frontend
