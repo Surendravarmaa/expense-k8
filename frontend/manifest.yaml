@@ -87,9 +87,7 @@ data:
         location /api/ { 
             proxy_pass http://backend:8080/;
         }
-
         }
-
     } 
 ---
 kind: Deployment
@@ -142,8 +140,6 @@ spec:
           items:
           - key: nginx.conf
             path: nginx.conf
-
-
 ---
 apiVersion: v1
 kind: Service
